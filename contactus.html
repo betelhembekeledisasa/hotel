@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+      header{
+            background-color: rgb(70, 240, 70);
+            text-align: center;
+            padding: 5px;
+            font-size: larger;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        .navbar{
+            background-color: rgb(129, 231, 129);
+            height: 50px;
+        }
+        aside{
+            width: 20%;
+            float: left;
+            padding: 10px;
+        }
+        section{
+            width: 40%;
+            float:left;
+            padding: 10px
+        }
+        article{
+            width: 30%;
+            float: left;
+            padding: 10px
+
+        }
+        footer{
+            display: block;
+            clear: both;
+            background-color: darkgreen;
+            text-align: center;
+            padding-left: 25px;
+
+        }
+        @media screen and (max-width:600px){
+            aside,section,article{
+                width: 100%;
+            }
+        }
+        .gallary{
+            display: inline-block;
+            border: 1px solid rgb(70, 190, 106);
+            margin: 5px;
+
+        }
+        .gallary .discribtion{
+            padding: 10px;
+            text-align: center;
+        }
+        .gallary:hover{
+            border: 1px solid rgb(102, 207, 176) ;
+        }
+        .gallary img{
+            width: 100%;
+            height: auto;
+        }
+        .box{
+            width: 250px;
+            height: 250;
+            background-color: red;
+            font-size: 13em;
+            text-align: center;
+            animation-name: slideleft;
+            animation-duration: 2s;
+        }
+        @keyframes slideleft{
+            from{transform: translateX(500%
+                );}
+
+        }
+        @keyframes  slideright{
+            to{transform: translateX(500%
+                );}
+            }
+        
+       
+        
+
+    
+
+
+    </style>
+</head>
+<body>
+    ,<header>
+        <h1>Header </h1>
+    </header>
+<nav class="navbar "> 
+</nav>
+<main>
+    <aside>
+        <h2>this  is aside</h2>
+        <p>A website (also written as a web site) is a collection of web pages  </p>
+        <p>A website (also written as a web site) is a collection of web pages  </p>
+        <p>A website (also written as a web site) is a collection of web pages  </p>
+    </aside>
+    <section>
+        <h2> this is section</h2>
+        <p>A website (also written as a web site) is a collection of web pages  </p>
+        <p>A website (also written as a web site) is a collection of web pages  </p>
+        <p>A website (also written as a web site) is a collection of web pages  </p>
+    </section>
+    <article>
+        <h2> this is article</h2>
+        <p>A website (also written as a web site) is a collection of web pages  </p>
+        <p>A website (also written as a web site) is a collection of web pages  </p>
+        <p>A website (also written as a web site) is a collection of web pages  </p>
+    </article>
+    <footer>
+        <h2>footer</h2>
+
+    </footer>
+
+    <div class="gallary">
+        <a target="_blank" href="OIP.jpg"></a>
+        <img src="OIP.jpg" alt="world" width="50px">
+
+   
+
+    </div>
+    <div class="discribtion">website</div>
+    <div class="gallary">
+        <a target="_blank" href="image sherk.jpg"></a>
+        <img src="image sherk.jpg" alt="world" width="100px">
+
+    </div>
+    <div class="discribtion">sherk </div>
+    <div class="box">hi </div>
+
+
+    
+
+
+
+</main>
+</body>
+</html>
